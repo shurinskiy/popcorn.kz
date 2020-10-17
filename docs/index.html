@@ -11,8 +11,11 @@
  
 <header class="header"> 
 	<div class="header__container container">
-		<a href="./" class="header__button button button_red button_catalog">каталог</a>
 		<a href="./"  class="header__logo">ИП Бессергенев М.П.</a>
+		<div class="header__bottom">
+			<a href="./" class="header__button button button_red button_catalog">каталог</a>
+			<span class="header__lineholder"></span>
+		</div>
 	</div>
 </header> 
  
@@ -130,15 +133,15 @@
 	<div class="callback__container container">
 		<h2 class="callback__title">Свяжитесь с нами</h2>
 		<form action="./" class="callback__form form">
-			<input class="callback__form-input form__phone" type="tel" name="phone">
-			<input class="callback__form-submit form__submit" type="submit" value="перезвонить">
+			<input class="callback__form-input form__phone" type="tel" name="phone" placeholder="ваш телефон"/>
+			<input class="callback__form-submit form__submit form__submit_callme" type="submit" value="перезвонить"/>
 		</form>
 		<span class="callback__text">Оставьте нам номер своего телефона и мы вам обязательно перезвоним</span>
 	</div>
 </section>
 
 
-<!-- <p>culpa qui enim et sint proident adipisicing nulla tempor ipsum officia occaecat occaecat laboris est eiusmod consectetur ea magna occaecat aliquip aliqua officia amet magna anim est ea et exercitation do elit nisi sint sit eiusmod irure eiusmod quis incididunt amet Lorem magna quis ea pariatur sint adipisicing labore nisi esse sunt laboris labore nulla excepteur deserunt ut officia nulla aliqua fugiat aliqua dolor non quis sint elit quis Lorem id magna cillum proident non adipisicing proident magna proident aliqua do exercitation dolore ullamco enim reprehenderit occaecat et irure nostrud magna ut occaecat nisi ad sunt nostrud est id minim</p> -->
+<!-- <p>mollit adipisicing proident proident fugiat irure exercitation amet qui in anim eu excepteur aliquip excepteur consectetur in culpa incididunt deserunt aute et cillum exercitation aliquip occaecat laborum minim quis minim pariatur sit sit non mollit ut sint duis tempor ut reprehenderit velit occaecat eiusmod minim aute sint aliqua officia reprehenderit ullamco consectetur cupidatat reprehenderit veniam nulla ipsum tempor sit culpa pariatur velit exercitation mollit ipsum dolore do cillum elit reprehenderit do duis dolor commodo irure eu consectetur do anim est et sit dolore fugiat magna velit excepteur minim excepteur consectetur deserunt tempor reprehenderit reprehenderit ut fugiat fugiat enim tempor officia</p> -->
 <footer class="footer"> 
 	<div class="footer__container container">
 		<div class="footer__top">
@@ -150,7 +153,7 @@
 			</div>
 			<div class="footer__top-right">
 				Свяжитесь с нами: <br/>
-				e-mail: <br/>
+				e-mail: <a href="mailto:somemail@mail.ru">somemail@mail.ru</a><br/>
 				телефон: <a href="tel:+77773525458">8 777 352 54 58</a> <br/>
 				Мы в соцсетях:
 			</div>
